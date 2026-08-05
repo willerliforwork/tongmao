@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">同茂地产 - 创领美好生活空间</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <header>
+        <div class="logo" data-i18n="logo_text">同茂地产</div>
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" data-i18n="nav_home">首页</a></li>
+            <li><a href="#projects" data-i18n="nav_projects">精品楼盘</a></li>
+            <li><a href="#about" data-i18n="nav_about">关于同茂</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">联系我们</a></li>
+            <li><button class="lang-switch" id="langSwitch">EN / 中文</button></li>
+        </ul>
+    </header>
+
+    <!-- 首屏横幅 -->
+    <section id="home" class="hero">
+        <h1 data-i18n="hero_title">创领美好生活空间</h1>
+        <p data-i18n="hero_desc">同茂地产致力于为您打造卓越品质的住宅与商业空间，筑就城市美好未来。</p>
+        <a href="#projects" class="btn" data-i18n="hero_btn">探索项目</a>
+    </section>
+
+    <!-- 精品楼盘 -->
+    <section id="projects">
+        <h2 class="section-title" data-i18n="sec_projects">精品楼盘推荐</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="img-container">
+                    <img src="images/project1.jpg" alt="同茂·天御华府" onerror="this.src='https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=600&q=80'">
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="p1_title">同茂·天御华府</h3>
+                    <p data-i18n="p1_desc">城市核芯高端江景大宅，尽享繁华与宁静的完美交融。</p>
+                    <a href="#contact" class="btn detail-btn" data-i18n="detail_btn">了解详情</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="img-container">
+                    <img src="images/project2.jpg" alt="同茂·山水颐园" onerror="this.src='https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80'">
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="p2_title">同茂·山水颐园</h3>
+                    <p data-i18n="p2_desc">低密生态洋房，背山面水，开启诗意栖居新体验。</p>
+                    <a href="#contact" class="btn detail-btn" data-i18n="detail_btn">了解详情</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="img-container">
+                    <img src="images/project3.jpg" alt="同茂·国际金融中心" onerror="this.src='https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=600&q=80'">
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="p3_title">同茂·国际金融中心</h3>
+                    <p data-i18n="p3_desc">5A甲级商务写字楼，汇聚全球资本，赋能企业腾飞。</p>
+                    <a href="#contact" class="btn detail-btn" data-i18n="detail_btn">了解详情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about-section">
+        <h2 class="section-title" data-i18n="sec_about">关于同茂地产</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p data-i18n="about_p1">同茂地产成立于2010年，是一家专注于高端住宅开发、商业地产运营及物业管理的大型综合性房地产企业。</p>
+                <p data-i18n="about_p2">多年来，我们秉持“筑诚筑信，精益求精”的品牌理念，足迹遍布全国多座核心城市，为数十万业主提供了高品质的居住与商业空间。</p>
+                <p data-i18n="about_p3">未来，同茂地产将继续紧跟时代步伐，致力于成为可持续发展的城市美好生活服务商。</p>
+            </div>
+            <div class="about-img">
+                <img src="images/about.jpg" alt="关于同茂" onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80'">
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact">
+        <h2 class="section-title" data-i18n="sec_contact">联系我们</h2>
+        <div class="contact-container">
+            <div class="contact-item">
+                <h4 data-i18n="c_address_title">公司地址</h4>
+                <p data-i18n="c_address_content">中国某省某市同茂大厦 28 层</p>
+            </div>
+            <div class="contact-item">
+                <h4 data-i18n="c_phone_title">咨询热线</h4>
+                <p>+86 400-888-9999</p>
+            </div>
+            <div class="contact-item">
+                <h4 data-i18n="c_email_title">电子邮箱</h4>
+                <p>contact@tongmaore.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p data-i18n="footer_text">&copy; 2026 同茂地产 版权所有 | Tongmao Real Estate. All Rights Reserved.</p>
+    </footer>
+
+    <!-- 脚本文件 -->
+    <script src="js/script.js"></script>
+</body>
+</html>
